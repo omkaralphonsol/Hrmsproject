@@ -138,3 +138,283 @@ C:\Users\hp\Downloads\HRMS (3)\HRMS\HRMS\obj\Debug\HRMS.csproj.CoreCompileInputs
 C:\Users\hp\Downloads\HRMS (3)\HRMS\HRMS\obj\Debug\HRMS.csproj.Up2Date
 C:\Users\hp\Downloads\HRMS (3)\HRMS\HRMS\obj\Debug\HRMS.dll
 C:\Users\hp\Downloads\HRMS (3)\HRMS\HRMS\obj\Debug\HRMS.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.dll.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.exe
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.exe.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.rsp
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.exe
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.exe.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.rsp
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Buffers.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Memory.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.exe
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.exe.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.rsp
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Antlr3.Runtime.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\BouncyCastle.Cryptography.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\DataObject.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.barcodes.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-adapter.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-connector.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.commons.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.forms.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.html2pdf.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.io.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.kernel.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.layout.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfa.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfua.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.sign.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.styledxmlparser.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.svg.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Options.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Newtonsoft.Json.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Buffers.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Memory.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Numerics.Vectors.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.AccessControl.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Cryptography.Xml.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Principal.Windows.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Text.Encoding.CodePages.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Web.Optimization.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\WebGrease.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\MySql.Data.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ZstdSharp.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.IO.Pipelines.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Hash.xxHash.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\DataObject.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.dll.config
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Antlr3.Runtime.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\BouncyCastle.Cryptography.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.barcodes.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-adapter.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-connector.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.commons.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.forms.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.html2pdf.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.io.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.kernel.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.layout.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfa.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfua.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.sign.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.styledxmlparser.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\itext.svg.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Options.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Newtonsoft.Json.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Buffers.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Memory.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Numerics.Vectors.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.AccessControl.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Cryptography.Xml.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Principal.Windows.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Text.Encoding.CodePages.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.Web.Optimization.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\MySql.Data.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.pdb
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\System.IO.Pipelines.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Hash.xxHash.xml
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.AssemblyReference.cache
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.CoreCompileInputs.cache
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.Up2Date
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.dll
+C:\Users\Rohit\Downloads\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.dll.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\HRMS.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.exe
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.exe.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csc.rsp
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.exe
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.exe.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\csi.rsp
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Buffers.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Collections.Immutable.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Memory.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Numerics.Vectors.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.exe
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.exe.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\vbc.rsp
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\VBCSCompiler.exe
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\roslyn\VBCSCompiler.exe.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Antlr3.Runtime.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\BouncyCastle.Cryptography.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\DataObject.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.barcodes.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-adapter.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-connector.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.commons.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.forms.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.html2pdf.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.io.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.kernel.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.layout.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfa.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfua.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.sign.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.styledxmlparser.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.svg.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Options.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Primitives.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Newtonsoft.Json.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Buffers.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Diagnostics.DiagnosticSource.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Memory.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Numerics.Vectors.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.AccessControl.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Cryptography.Xml.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Principal.Windows.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Text.Encoding.CodePages.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Threading.Tasks.Extensions.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Web.Optimization.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\WebGrease.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\MySql.Data.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ZstdSharp.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.Streams.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.IO.Pipelines.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Hash.xxHash.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\DataObject.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ProcessModel.dll.config
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Antlr3.Runtime.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\BouncyCastle.Cryptography.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\ExcelDataReader.DataSet.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.barcodes.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-adapter.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.bouncy-castle-connector.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.commons.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.forms.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.html2pdf.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.io.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.kernel.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.layout.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfa.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.pdfua.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.sign.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.styledxmlparser.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\itext.svg.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Options.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Microsoft.Extensions.Primitives.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Newtonsoft.Json.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Buffers.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Diagnostics.DiagnosticSource.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Memory.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Numerics.Vectors.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.AccessControl.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Cryptography.Xml.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Security.Principal.Windows.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Text.Encoding.CodePages.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Threading.Tasks.Extensions.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.Web.Optimization.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\MySql.Data.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.pdb
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\Google.Protobuf.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.Streams.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Compression.LZ4.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\System.IO.Pipelines.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\bin\K4os.Hash.xxHash.xml
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.AssemblyReference.cache
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.CoreCompileInputs.cache
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.csproj.Up2Date
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.dll
+D:\hrms 03-06-2026\hrms 29-05-2026\HRMS\HRMS\obj\Debug\HRMS.pdb

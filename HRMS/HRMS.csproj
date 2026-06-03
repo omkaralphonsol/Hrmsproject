@@ -1732,7 +1732,6 @@
     <Content Include="View\Modules\AddSalarySlipData.aspx" />
     <Content Include="View\Modules\AddUser.aspx" />
     <Content Include="View\Modules\AddUserMain.aspx" />
-    <Content Include="View\Modules\Adduser.aspx" />
     <Content Include="View\Modules\adduserdocuments.aspx" />
     <Content Include="View\Modules\AssignRights.aspx" />
     <Content Include="View\Modules\assignRole.aspx" />
@@ -1740,6 +1739,7 @@
     <Content Include="View\Modules\EmployeeLeaveView.aspx" />
     <Content Include="View\Modules\HandoverProcess.aspx" />
     <Content Include="View\Modules\Home.aspx" />
+    <Content Include="View\Modules\HolidayList.aspx" />
     <Content Include="View\Modules\LeaveConfiguration.aspx" />
     <Content Include="View\Modules\Remunerationdetails.aspx" />
     <Content Include="View\Modules\Remunerationform.aspx" />
@@ -1877,13 +1877,6 @@
     <Compile Include="View\Modules\AddUserMain.aspx.designer.cs">
       <DependentUpon>AddUserMain.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Modules\Adduser.aspx.cs">
-      <DependentUpon>Adduser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View\Modules\Adduser.aspx.designer.cs">
-      <DependentUpon>Adduser.aspx</DependentUpon>
-    </Compile>
     <Compile Include="View\Modules\adduserdocuments.aspx.cs">
       <DependentUpon>adduserdocuments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1932,6 +1925,13 @@
     </Compile>
     <Compile Include="View\Modules\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Modules\HolidayList.aspx.cs">
+      <DependentUpon>HolidayList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Modules\HolidayList.aspx.designer.cs">
+      <DependentUpon>HolidayList.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Modules\LeaveConfiguration.aspx.cs">
       <DependentUpon>LeaveConfiguration.aspx</DependentUpon>

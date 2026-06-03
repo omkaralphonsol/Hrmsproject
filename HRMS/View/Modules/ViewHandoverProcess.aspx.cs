@@ -44,7 +44,7 @@ namespace HRMS.View.Modules
                 //hfResignationId.Value = ResignationId.ToString();
                 if (Request.QueryString["rid"] == null || Request.QueryString["uid"] == null)
                 {
-                    Response.Redirect("HandoverProcessList.aspx");
+                    Response.Redirect("HandoverProcess.aspx", false);
                     return;
                 }
 

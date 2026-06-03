@@ -68,6 +68,16 @@ namespace HRMS.View.Modules
         }
 
         protected string UserId = null;
+        private static bool IsSaveSuccessful(string status, string remark)
+        {
+            string normalizedStatus = (status ?? string.Empty).Trim();
+            string normalizedRemark = (remark ?? string.Empty).Trim();
+
+            return string.Equals(normalizedStatus, "Success", StringComparison.OrdinalIgnoreCase)
+                || normalizedRemark.IndexOf("created", StringComparison.OrdinalIgnoreCase) >= 0
+                || normalizedRemark.IndexOf("saved", StringComparison.OrdinalIgnoreCase) >= 0;
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             UserId = Convert.ToString(Session["userId"]);
@@ -283,58 +293,82 @@ namespace HRMS.View.Modules
         private void BindEmployeeSalary(int userId)
         {
             SalarySlipBL bl = new SalarySlipBL();
-            var data = bl.GetSalaryMasterByUserId(userId);
-            if (data == null || data.Count == 0)
+            SalarySlipDO activeSlip = bl.GetLatestSavedSlipByUserId(userId);
+            if (activeSlip != null)
             {
-                UserDetailsBL userBL = new UserDetailsBL();
-                string employeeCode = string.Empty;
-                var mergedUser = userBL.ViewAllUsers().FirstOrDefault(x => x.UserId == userId);
-                if (mergedUser != null)
-                {
-                    employeeCode = Convert.ToString(mergedUser.EmployeeCode ?? string.Empty).Trim();
-                }
-
-                if (!string.IsNullOrWhiteSpace(employeeCode))
-                {
-                    data = bl.GetSalaryMasterByEmployeeCode(employeeCode);
-                }
-            }
-
-            if (data != null && data.Count > 0)
-            {
-                var master = data[0];
-
-                decimal basic = master.BasicSalary;
-                decimal hra = master.HouseRentAllowance;
-                decimal special = master.SpecialAllowance;
-               // decimal lta = master.LeaveTravelAllowance; // optional
-                decimal professionalTax = master.ProfessionalTax;
+                decimal basic = activeSlip.BasicSalary;
+                decimal hra = activeSlip.HouseRentAllowance;
+                decimal special = activeSlip.SpecialAllowance;
+                decimal professionalTax = activeSlip.ProfessionalTax;
 
                 txtBasicSalary.Text = basic.ToString("0.00");
                 txtHRA.Text = hra.ToString("0.00");
                 txtSpecial.Text = special.ToString("0.00");
                 txtProfessionalTax.Text = professionalTax.ToString("0.00");
-
-                decimal totalEarnings = basic + hra + special;
-
-                decimal totalDeductions = professionalTax;
-
-                decimal netPay = totalEarnings - totalDeductions;
-
-                txtTotalEarnings.Text = totalEarnings.ToString("0.00");
-                txtTotalDeductions.Text = totalDeductions.ToString("0.00");
-                txtNetPay.Text = netPay.ToString("0.00");
+                txtTotalEarnings.Text = activeSlip.TotalEarnings.ToString("0.00");
+                txtTotalDeductions.Text = activeSlip.TotalDeductions.ToString("0.00");
+                txtNetPay.Text = activeSlip.NetPay.ToString("0.00");
 
                 ViewState["FullBasic"] = basic;
                 ViewState["FullHRA"] = hra;
                 ViewState["FullSpecial"] = special;
-                //ViewState["FullLTA"] = lta;
                 ViewState["FullPT"] = professionalTax;
+
+                int activeMonth = 0;
+                int activeYear = activeSlip.Year;
+                int.TryParse(Convert.ToString(activeSlip.Month), out activeMonth);
+                BindActiveComponents(userId, activeMonth, activeYear);
+                return;
             }
-            else
+
+            // Hard stop: do not fallback to old master rows. This prevents stale 64000 values.
+            ClearSalaryFields();
+            ScriptManager.RegisterStartupScript(
+                this,
+                this.GetType(),
+                "ActiveSlipMissing",
+                "showsalarySavedMessage('error', 'Active salary slip not found for selected user. Please save remuneration again.');",
+                true);
+        }
+
+        private void BindActiveComponents(int userId, int month, int year)
+        {
+            if (month <= 0 || year <= 0)
             {
-                ClearSalaryFields();
+                hfDynamicComponents.Value = string.Empty;
+                return;
             }
+
+            SalarySlipBL bl = new SalarySlipBL();
+            var components = bl.GetRemunerationComponents(userId, month, year);
+            if (components == null || components.Count == 0)
+            {
+                hfDynamicComponents.Value = string.Empty;
+                return;
+            }
+
+            hfDynamicComponents.Value = new JavaScriptSerializer().Serialize(components);
+            string js = @"
+                (function(){
+                    var earningBody = document.getElementById('earningsBody');
+                    var deductionBody = document.getElementById('deductionsBody');
+                    if (earningBody) {
+                        Array.from(earningBody.querySelectorAll('tr.dynamic-component')).forEach(function(r){ r.remove(); });
+                    }
+                    if (deductionBody) {
+                        Array.from(deductionBody.querySelectorAll('tr.dynamic-component')).forEach(function(r){ r.remove(); });
+                    }
+                    var data = " + hfDynamicComponents.Value + @";
+                    data.forEach(function(c){
+                        if (typeof createDynamicRow === 'function') {
+                            createDynamicRow(c.ComponentName, parseFloat(c.Amount || 0), !!c.IsDeduction);
+                        }
+                    });
+                    if (typeof calculateSalary === 'function') {
+                        calculateSalary();
+                    }
+                })();";
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "LoadActiveComponents", js, true);
         }
         private void ClearSalaryFields()
         {
@@ -786,7 +820,9 @@ namespace HRMS.View.Modules
                     string status = Convert.ToString(result[0].Status ?? string.Empty).Trim();
                     string remark = Convert.ToString(result[0].Remarks ?? string.Empty).Trim();
 
-                    if (string.Equals(status, "Success", StringComparison.OrdinalIgnoreCase))
+                    bool isSaveSuccessful = IsSaveSuccessful(status, remark);
+
+                    if (isSaveSuccessful)
                     {
                         int insertedBy = 0;
                         int.TryParse(Convert.ToString(Session["userId"]), out insertedBy);
@@ -798,13 +834,24 @@ namespace HRMS.View.Modules
                         {
                             bl.SaveRemunerationComponents(slip.UserId, monthValue, slip.Year, components, insertedBy);
                         }
+
+                        ResetRemunerationFormFields();
+                    }
+
+                    string safeStatus = HttpUtility.JavaScriptStringEncode(status);
+                    string safeRemark = HttpUtility.JavaScriptStringEncode(remark);
+                    string script = $"showsalarySavedMessage('{safeStatus}', '{safeRemark}');";
+                    if (isSaveSuccessful)
+                    {
+                        string reloadUrl = ResolveUrl("~/View/Modules/Remunerationform.aspx");
+                        script += $" setTimeout(function(){{ window.location.href = '{reloadUrl}'; }}, 1500);";
                     }
 
                     ScriptManager.RegisterStartupScript(
                         this,
                         this.GetType(),
                         "UserSavedScript",
-                        $"showsalarySavedMessage('{status}', '{remark}');",
+                        script,
                         true
                     );
                 }
@@ -871,22 +918,36 @@ namespace HRMS.View.Modules
             return list;
         }
 
-        protected void btnReset_Click(object sender, EventArgs e)
+        private void ResetRemunerationFormFields()
         {
-            //Dropdowns
-            ddl_username.ClearSelection();
-            ddl_username.SelectedIndex = 0;
+            if (ddl_username.Items.Count > 0)
+            {
+                ddl_username.ClearSelection();
+                ddl_username.SelectedIndex = 0;
+            }
+
+            BindEmployeeCode();
+            if (ddl_empcode.Items.Count > 0)
+            {
+                ddl_empcode.ClearSelection();
+                ddl_empcode.SelectedIndex = 0;
+            }
 
             ddldesign.Items.Clear();
             ddldesign.Items.Insert(0, new ListItem("-- Select --", ""));
 
-            ddlMonth.ClearSelection();
-            ddlMonth.SelectedIndex = 0;
+            if (ddlMonth.Items.Count > 0)
+            {
+                ddlMonth.ClearSelection();
+                ddlMonth.SelectedIndex = 0;
+            }
 
-            ddlYear.ClearSelection();
-            ddlYear.SelectedIndex = 0;
+            if (ddlYear.Items.Count > 0)
+            {
+                ddlYear.ClearSelection();
+                ddlYear.SelectedIndex = 0;
+            }
 
-            // Salary Fields
             txtBasicSalary.Text = "0.00";
             txtHRA.Text = "0.00";
             txtSpecial.Text = "0.00";
@@ -895,13 +956,17 @@ namespace HRMS.View.Modules
             txtTotalEarnings.Text = "0.00";
             txtTotalDeductions.Text = "0.00";
             txtNetPay.Text = "0.00";
+            txtTotalEarningsSummary.Text = "0.00";
+            txtTotalDeductionsSummary.Text = "0.00";
+            txtNetPaySummary.Text = "0.00";
 
-            //Appraisal
-            txtLastAppraisalDate.Text = "";
-            txtCurrentAppraisalDate.Text = "";
-            txtAppraisalPercent.Text = "";
-            txtIncrementAmount.Text = "";
-            hfIncrementAmount.Value = "";
+            txtLastAppraisalDate.Text = string.Empty;
+            txtCurrentAppraisalDate.Text = string.Empty;
+            txtAppraisalPercent.Text = string.Empty;
+            txtIncrementAmount.Text = string.Empty;
+            txtRevisedSalary.Text = string.Empty;
+            hfIncrementAmount.Value = string.Empty;
+            hfDynamicComponents.Value = string.Empty;
 
             pnlAppraisal.Visible = false;
             btnshowApprisal.Visible = true;
@@ -910,14 +975,21 @@ namespace HRMS.View.Modules
             rptComponents.DataSource = null;
             rptComponents.DataBind();
 
-
-            ddl_component.ClearSelection();
-            ddl_component.SelectedIndex = 0;
+            if (ddl_component.Items.Count > 0)
+            {
+                ddl_component.ClearSelection();
+                ddl_component.SelectedIndex = 0;
+            }
 
             Session["EmployeeCode"] = null;
             Session["CompanyId"] = null;
 
             upAdditionalComponents.Update();
+        }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            ResetRemunerationFormFields();
 
             ScriptManager.RegisterStartupScript(
                 this,

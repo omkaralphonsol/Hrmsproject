@@ -32,6 +32,58 @@ namespace Lean.View.Layout
             return 999;
         }
 
+        private static bool IsMenuName(string value, string expected)
+        {
+            return string.Equals((value ?? string.Empty).Trim(), expected, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private static void MoveRemunerationFormToOnboarding(List<MenuData> menuDataList)
+        {
+            if (menuDataList == null)
+            {
+                return;
+            }
+
+            MenuData salarySlipMenu = menuDataList.FirstOrDefault(x => IsMenuName(x.Menu, "Salary Slip"));
+            MenuData onboardingMenu = menuDataList.FirstOrDefault(x => IsMenuName(x.Menu, "Employee Onboarding"));
+
+            if (salarySlipMenu == null || salarySlipMenu.SubMenus == null)
+            {
+                return;
+            }
+
+            List<SubMenuData> remunerationForms = salarySlipMenu.SubMenus
+                .Where(s => IsMenuName(s.SubMenu, "Remuneration Form"))
+                .ToList();
+
+            if (remunerationForms.Count == 0)
+            {
+                return;
+            }
+
+            salarySlipMenu.SubMenus = salarySlipMenu.SubMenus
+                .Where(s => !IsMenuName(s.SubMenu, "Remuneration Form"))
+                .ToList();
+
+            if (onboardingMenu == null)
+            {
+                return;
+            }
+
+            if (onboardingMenu.SubMenus == null)
+            {
+                onboardingMenu.SubMenus = new List<SubMenuData>();
+            }
+
+            bool alreadyExistsInOnboarding = onboardingMenu.SubMenus
+                .Any(s => IsMenuName(s.SubMenu, "Remuneration Form"));
+
+            if (!alreadyExistsInOnboarding)
+            {
+                onboardingMenu.SubMenus.Add(remunerationForms[0]);
+            }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(Convert.ToString(Session["userid"])))
@@ -171,6 +223,8 @@ namespace Lean.View.Layout
                     .OrderBy(x => GetMainMenuOrder(x.Menu))
                     .ThenBy(x => (x.Menu ?? string.Empty).Trim())
                     .ToList();
+
+                MoveRemunerationFormToOnboarding(menuDataList);
 
                 foreach (var menu in menuDataList)
                 {
